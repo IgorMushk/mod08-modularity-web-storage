@@ -2,7 +2,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import storage from './storage';
 
 // ЗАДАЧА 1 (аналогия задачи 3 из ДЗ модуля 8)
-// https://www.youtube.com/watch?v=zgZ6s4-Y2Wk&t=5493s
+// https://www.youtube.com/watch?v=zgZ6s4-Y2Wk&t=5493s (1:23)
 
 // Якщо імейл і пароль користувача збігаються, зберігайте дані з форми при сабмите
 // у локальне сховище і змінюй кнопку login на logout і роби поля введення
