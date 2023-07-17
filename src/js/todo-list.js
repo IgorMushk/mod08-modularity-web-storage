@@ -26,7 +26,7 @@ if (listData.length) {
     }">${item.text}<span class="close">&#215</span></li>`;
   });
   listElement.insertAdjacentHTML('beforeend', itemsTemplateArr.join(''));
-}
+} // null или "" -> item.done ? 'checked' : null
 
 function listHandlerClick(event) {
   // В зависимости где произошел клик или удаяем или чекаем эллемент
@@ -54,7 +54,10 @@ function addNewItem() {
   }
 
   const dateNow = Date.now();
-  const itemTemplate = `<li data-identity="${dateNow}">${inputElement.value}<span class="close">&#215</span></li>`;
+  const itemTemplate = `
+  <li data-identity="${dateNow}">
+    ${inputElement.value} <span class="close">&#215</span>
+  </li>`;
   listElement.insertAdjacentHTML('beforeend', itemTemplate);
   listData.push({
     id: String(dateNow),
