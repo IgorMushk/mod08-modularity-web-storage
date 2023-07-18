@@ -1,4 +1,4 @@
-import 'basiclightbox/dist/basiclightbox.min.css';
+// - to git - import 'basiclightbox/dist/basiclightbox.min.css';
 
 import { common } from './03-common';
 import { createMarkup } from './helpers/createMarkup';

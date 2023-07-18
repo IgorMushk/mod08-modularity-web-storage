@@ -1,6 +1,6 @@
 // to createModal
 // import * as basicLightbox from 'basiclightbox';
-// // !!! работает только на локальном сервере
+// !!! работает только на локальном сервере
 import 'basiclightbox/dist/basiclightbox.min.css';
 
 import { common } from '../03-common';
