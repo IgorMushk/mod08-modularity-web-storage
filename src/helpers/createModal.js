@@ -1,7 +1,7 @@
 import * as basicLightbox from 'basiclightbox';
 // !!! работает только на локальном сервере
 // --- import 'basiclightbox/dist/basiclightbox.min.css';
-import 'basiclightbox/dist/basiclightbox.min.css';
+//import 'basiclightbox/dist/basiclightbox.min.css';
 
 import { closeModal } from './closeModal';
 
