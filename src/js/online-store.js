@@ -1,5 +1,5 @@
 import * as basicLightbox from 'basiclightbox';
-import 'basiclightbox/dist/basiclightbox.min.css'; // !!!
+// -import 'basiclightbox/dist/basiclightbox.min.css'; // !!!
 //node_modules\basiclightbox\src\styles\main.scss
 //node_modules\basiclightbox\dist\basicLightbox.min.css
 
