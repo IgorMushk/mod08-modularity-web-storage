@@ -28,12 +28,13 @@
     <p>
       Локальная сборка на localhost работате при подключении стиле import
       'basiclightbox/dist/basiclightbox.min.css, но при deploy появляется
-      ошибка. Для deploy нужно комментировать подключение стилей.
+      ошибка. Для deploy нужно комментировать подключение стилей. Без стилей
+      модалка работает неправильно, добавляется в конец страницы
     </p>
     <ol>
-      <li>online-store.js</li>
-      <li>createModal.js</li>
-      <li>favorite.js</li>
+      <li>createModal.js -css</li>
+      <li>online-store.js -css</li>
+      <!-- <li>favorite.js +css</li> -->
     </ol>
     <div
       style="
