@@ -1,7 +1,7 @@
 // to createModal
 // import * as basicLightbox from 'basiclightbox';
 // !!! работает только на локальном сервере
-import 'basiclightbox/dist/basiclightbox.min.css';
+//import 'basiclightbox/dist/basiclightbox.min.css';
 
 import { common } from '../03-common';
 import { createMarkup } from '../helpers/createMarkup';
